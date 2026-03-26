@@ -1,14 +1,13 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.Sitrep_ApiService>("apiservice")
+var apiService = builder.AddProject<Projects.Sitrep_ApiService>("api")
     .WithHttpHealthCheck("/health");
 
-// builder.AddProject<Projects.Sitrep_Web>("webfrontend")
-//     .WithExternalHttpEndpoints()
-//     .WithHttpHealthCheck("/health")
-//     .WithReference(apiService)
-//     .WaitFor(apiService);
 
+builder.AddViteApp("frontend", "../frontend")
+    .WithExternalHttpEndpoints()
+    .WithReference(apiService)
+    .WaitFor(apiService);
 
 
 builder.Build().Run();
