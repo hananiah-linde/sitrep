@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sitrep.ApiService\Sitrep.ApiService.csproj" />
-    <ProjectReference Include="..\Sitrep.Web\Sitrep.Web.csproj" />
   </ItemGroup>
 
 </Project>
