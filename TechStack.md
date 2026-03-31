@@ -8,7 +8,7 @@
 
 | Tool | Purpose |
 |------|---------|
-| **.NET Aspire** | Local orchestration of all services — provides a production-like experience (service discovery, dashboard, health checks, telemetry) without cloud hosting |
+| **Aspire** | Local orchestration of all services — provides a production-like experience (service discovery, dashboard, health checks, telemetry) without cloud hosting |
 
 ---
 
