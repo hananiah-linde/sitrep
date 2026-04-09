@@ -36,6 +36,12 @@
 |------|---------|
 | **TanStack Router** | Type-safe, file-based SPA routing |
 | **Vite** | Build tool and dev server |
+| **React** | UI library |
+| **Tailwind CSS** | CSS framework |
+| **TypeScript** | Static type checking |
+| **ESLint** | Static analysis |
+| **Prettier** | Code formatting |
+| **Shadcn UI** | React component library |
 
 ---
 
